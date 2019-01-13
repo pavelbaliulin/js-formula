@@ -7,6 +7,41 @@
     <title>Document</title>
   </head>
   <body>
-    <script src="index.js"></script>
+    <script>
+      var a = +prompt("Введите а");
+      var b = +prompt("Введите b");
+      document.write("Сторона а:" + a + "см</br>");
+      document.write("Сторона b:" + b + "см</br>");
+      document.write(
+        "<h1 style='color:red;'>Площадь прямоугольника= " +
+          a * b +
+          "см<sup>2</sup></h1></br>"
+      );
+
+      var r = +prompt("Введите радиус");
+      document.write("Радиус r:" + a + "см</br>");
+      document.write(
+        "<h2 style='color:blue;'>Обьем сферы= " +
+          (4 / 3) * 3.14 * r * r * r +
+          "см</h2></br>"
+      );
+
+      var a = +prompt("Введите a");
+      var h = +prompt("Введите h");
+      document.write("Сторона а:" + a + "см</br>");
+      document.write("Высота h:" + h + "см</br>");
+      document.write(
+        "<h3 style='color:grey;'>Площадь ромба= " + a * h + "см</h3></br>"
+      );
+      var a = +prompt("Введите а");
+      var h = +prompt("Введите h");
+      document.write("Сторона а:" + a + "см</br>");
+      document.write("Высота h:" + h + "см</br>");
+      document.write(
+        "<h4 style= 'color:green;'>Площадь треугольника= " +
+          0.5 * a * h +
+          "см</h4></br>"
+      );
+    </script>
   </body>
 </html>
